@@ -1,0 +1,24 @@
+.ant-layout {
+  min-height: 100vh !important;
+
+  background-color: $blackColor !important;
+  &-header {
+    height: auto !important;
+    padding: 0 !important;
+    background: $blackColor !important;
+    line-height: 30px !important;
+
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  &-content {
+    width: 100%;
+  }
+  &-footer {
+    background-color: transparent;
+    border-top: 1px solid #1978f3;
+  }
+}
